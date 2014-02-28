@@ -38,6 +38,7 @@ dependencies {
         exclude group:'com.google.android', module: 'support-v4' // already included below
     }
     compile 'com.android.support:support-v4:19.0.+'
+    compile files('libs/renderscript-v8.jar')
     compile project(':api')
 }
 
@@ -49,7 +50,7 @@ android {
     versionProps.load(new FileInputStream(file('version.properties')))
 
     defaultConfig {
-        minSdkVersion 17
+        minSdkVersion 16
         targetSdkVersion 19
 
         versionName versionProps['name']

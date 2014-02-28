@@ -77,8 +77,8 @@
     <style name="Theme.Muzei" parent="android:Theme.Holo">
         <item name="android:windowBackground">@android:color/black</item>
         <item name="android:windowContentOverlay">@null</item>
-<!--        <item name="android:windowTranslucentStatus">true</item>
-        <item name="android:windowTranslucentNavigation">true</item>-->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
         <item name="android:actionModeBackground">@drawable/cab_background</item>
         <item name="android:actionModeStyle">@style/Widget.Muzei.ActionMode</item>
         <item name="android:actionOverflowButtonStyle">@style/Widget.Muzei.ActionButton.Overflow</item>
