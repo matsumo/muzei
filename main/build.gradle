@@ -38,7 +38,6 @@ dependencies {
         exclude group:'com.google.android', module: 'support-v4' // already included below
     }
     compile 'com.android.support:support-v4:19.0.+'
-    compile files('libs/renderscript-v8.jar')
     compile project(':api')
 }
 
